@@ -1,0 +1,43 @@
+* Variables
+Las variables son una forma de llamar a datos por un nombre, ej, var numero = 5, de esta forma estamos llamando al 5 como numero, dependiendo de donde estemos en el codigo, al escribir
+numero, se mostrara el 5.
+
+
+* Strings
+Los strings son cadenas de caracteres (palabras), son un tipo de dato, ejemplo, 'hola'.
+
+
+* Funciones (argumentos, `return`)
+Las funciones son formas de agrupar codigo. Si tenemos un codigo que vamos a usar varias veces en el archivo, podemos armar una funcion para invocar ese codigo, y no estar
+repitiendo el codigo en el archivo. Ejemplo:
+
+function Saludo (nombre) {
+    console.loh('Hola ' + nombre);
+}
+
+Los argumentos de las funciones, son datos que le pasamos, y luego con esos datos, segun el codigo de la funcion, podemos utilizarlos para
+aplicar algun operacion.
+En la funcion de arriba, el argumento nombre, va a ser utilizado para usarlo como un saludo, ejemplo:
+Saludo('Pedro') sera 'Hola Pedro'
+
+El 'return' es lo que devuelve la funcion, al momento de llamar a return, la funcion finaliza y devuelve ese valor que asignamos, ejemplo, return true.
+En la funcion de ejemplo el returno no esta definido, por lo que el valor que retorne la funcion Saludo, sera Undefined
+
+
+* Declaraciones `if`
+El if es una forma de chequear una condicion, con el if podemos ejecutar un codigo o no si se cumple tal condicion, ejemplo:
+
+if (2 > 3) {
+    return true;
+} else {
+    return false;
+}
+
+En este caso, estamos comparando de si 2 es mayor que 3, como esa condicion es falsa, el codigo dentro de ese scope no se ejecuta, y salta al siguente, que seria el else, en este caso,
+false.
+
+* Valores booleanos (`true`, `false`)
+'true' es para indicar un valor verdadero, ej: 2 == 2 => true
+'false' es para indicar un valir falso, ej: 2 == 3 => false
+
+
