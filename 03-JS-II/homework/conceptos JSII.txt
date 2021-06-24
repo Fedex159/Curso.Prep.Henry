@@ -1,0 +1,31 @@
+for
+=========
+El for es una forma de generar una repeticion, un bucle, de recorer una cantidad determinada. Ejemplo, contar del 1 al 10 e imprimir en pantalla cada resultado:
+
+for (var i=1< i <= 10; i++) {
+    console.log(i);
+}
+
+&&, ||, !
+===========
+El Y (&&), O (||) o la Negacion (!), son operadores logicos, asi como usamos operadores como la suma, resta, multiplicacion, division, usamos operadores logicos, en este caso, entre tipo
+de datos booleanos. 
+
+El && sera verdadero cuando los 2 datos booleanos comparados sean verdaderos, ej: 
+
+true && true
+
+El || sera verdadero cuando 1 de los 2 datos booleanos comparados sean verdaderos, ej:
+
+true || false
+false || true
+true || true
+
+Y la ! sera verdadera, cuando la expresion o el dato comparado sea falso, ej:
+
+!false => true
+!(true && false) => true
+!(false || false) => true
+
+
+
