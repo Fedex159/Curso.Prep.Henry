@@ -1,0 +1,25 @@
+Objetos
+=======
+Los objetos podrian ser como los arreglos, pero son capaces de guardar mucha informacion, y tienen la ventaja de que esa informacion, luego es mas facil de acceder que en un arreglo,
+por como funcionan los objetos.
+
+
+Propiedades
+===========
+Las propiedades son los elementos del objeto.
+
+
+Métodos
+=======
+Los metodos sun funciones guardadas en los objetos, una de las propiedades del objeto que contenga una funcion, se lo llama metodo a ese valor.
+
+
+Bucle for…in
+============
+Los bucles for in sirven para recorrer todo un objeto sin saber la cantidad de propiedades que tiene.
+
+
+Notación de puntos vs notación de corchetes
+===========================================
+La notacion de puntos es mas facil de escribir, solo con poner un punto luego del objeto, accedemos al valor que guarda ese objeto, y la notacion de corchetes requiere mas escritura,
+pero nos permite acceder a propiedades usando variales, cosa que la notacion de punto no permite.
