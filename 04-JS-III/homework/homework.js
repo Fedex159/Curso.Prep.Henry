@@ -165,17 +165,23 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  if (n > 9) {
-    for (var i=0; Math.pow(10,i) < n; i++) {
-      if ( ((Math.pow(10,i) % n) <= 10 ) && ((Math.pow(10,i) % n) > 0) ) {
-        return true;
-      }
-    }  
-  } else if (n === 9) {
+  if (n === 9) {
     return true;
   } else {
-    return false;
+    var i=1;    
+    var j=0;
+    var resto=10;
+    while ( resto < n ) {      
+      i++;
+      j++;
+      resto=Math.pow(10,i);
+    }
+    // Chequea si esta en 10^j y 10^i
+    if ( (n >= resto-(Math.pow(10,j)) ) && (n < resto) ) {       
+      return true;
+    }  
   }
+  return false;
 }
 
 
