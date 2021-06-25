@@ -1,0 +1,8 @@
+Arrays
+=========
+
+Los arreglos se pueden pensar como un conjunto de elementos, como si fuera una bolsa y guardara cosas en un lugar comun, por ej, que en una bolsa yo tenga peras, manzanas, madera, 
+carnes, clavos, etc. Tengo varias cosas en un lugar, en este caso, en un arreglo, puede tener varios datos, sean del mismo tipo o no, en un lugar, ej:
+
+[1, 2, ['henry', true] , null, undefined]
+
