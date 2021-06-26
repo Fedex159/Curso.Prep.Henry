@@ -1,0 +1,9 @@
+prototype
+=========
+
+
+
+Constructors (de Clases)
+========================
+Los constructores de clases nos sirven para crear una plantilla, ej, si tenes la clase auto, y queremos crear un auto especifico, ej, un audi, usamos un constructor para crear 
+al audi, que ya tiene en la plantilla las caracteristicas que deberia tener ese auto (color, marca, año, etc), nosotros solo le pasamos las caracteristicas.
