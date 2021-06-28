@@ -1,0 +1,32 @@
+body {    
+    background-image: url("http://www.digitalrevolutions.biz/wp-content/uploads/2009/07/red_line_background.jpg") ;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img {    
+    width: 400px;
+}
+.divClass {      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;       
+}
+#thirdDiv { 
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    flex-direction: column;                
+    height: 600px;
+    width: 500px;
+    background-color:burlywood;
+    padding: 50px;
+    border: 1px solid black;
+}
+#spanId {    
+    font-size: 18px;
+    margin: 50px;                              
+}
