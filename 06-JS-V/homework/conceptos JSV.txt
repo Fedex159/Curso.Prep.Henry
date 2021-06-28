@@ -3,6 +3,8 @@ prototype
 En los objetos, cuando definimos metodos, cada vez que se crea un objeto, y si ese objeto tiene un metodo, estamos guardando en memoria varias veces el mismo metodo, repitiendonos 
 en nuestro codigo, y haciendo un gasto de memoria innecesaria. Por eso, con el prototype, podemos definir un metodo, y que cada vez que el objeto necesite ese metodo, llame al 
 prototype, y ese metodo esta una sola vez en memoria, y las llamadas estan referenciando a donde esta ese metodo.
+Sabiendo esto, podriamos decir que el prototype, son propiedades universales que tienen los objetos. Todos los objetos que sean de el mismo tipo, tendran acceso a las propiedades que 
+estan en el prototype.
 
 
 Constructors (de Clases)

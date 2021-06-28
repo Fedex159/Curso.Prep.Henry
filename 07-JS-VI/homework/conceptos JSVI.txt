@@ -1,0 +1,3 @@
+Callbacks
+=========
+Le dicimos Callbacks cuando un argumento de una funcion es una funcion.
